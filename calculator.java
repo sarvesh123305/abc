@@ -3,7 +3,7 @@ import java.awt.*;
 import java.awt.event.*;
 import javax.swing.event.*;
 Ewwww
-
+Machines
 public class Calculator extends Frame implements ActionListener
 {
  Panel p;
@@ -23,8 +23,6 @@ public class Calculator extends Frame implements ActionListener
 	}
     p.setLayout(new GridLayout(3,3,3,3));
 	add(p,BorderLayout.CENTER);
-
-add(p);
 p.setBounds(100,100,200,200);
 	add(t);
     setSize(300,300);
